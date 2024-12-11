@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    form {
+      border: 1px solid #aaa;
+      width: 500px;
+      padding: 20px 100px 20px 40px;
+      margin-left: 10px;
+      border-radius: 8px;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    select,
+    textarea {
+      width: 100%;
+      padding: 6px;
+      border: 1px solid silver;
+      box-sizing: border-box;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div>
+    <a href="./index.html">Home</a> |
+    <a href="./education.html">Education</a> |
+    <a href="./work.html">Work Experience</a> |
+    <a href="#">Contact Me</a> |
+  </div>
+  <hr />
+  <h1>Contact Me</h1>
+  <br />
+
+
+  <form>
+    <p>Enter your info..</p>
+    <form action="/action_page.php">
+
+      <label for="name">Your Name</label><br>
+      <input type="text" id="name" name="name" value=""><br>
+      <br />
+      <label for="E-mail">Your E-mail</label><br>
+      <input type="email" id="E-mail" name="E-mail" value=""><br><br>
+      <label for="Gender">Gender</label><br>
+      <select name="Gender" id="Gender">
+        <option value="Select" selected="selected">Select..</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Unspecified">Unspecified</option>
+      </select>
+
+      <br><br>
+
+      <div>
+        Message
+        <br>
+        <textarea name="note" rows="5" column="25"></textarea>
+      </div>
+      <br><br>
+
+      <br />
+      <br />
+      </div>
+      <input type="submit" value="Send">
+      <input type="submit" value="Clear">
+
+    </form>
+  </form>
+</body>
+
+</html>
